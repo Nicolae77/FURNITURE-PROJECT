@@ -60,6 +60,14 @@ header:hover{
 	display: inline-flex;
 }
 
+.toggle-container{
+	list-style:none;
+	position: relative;
+	display: inline-flex;
+	cursor: pointer;
+	margin: 30px;
+}
+
 a.nav-link{
 	margin: 2px;
 	padding: 5px 10px;
