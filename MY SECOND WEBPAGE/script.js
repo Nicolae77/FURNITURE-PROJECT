@@ -12,11 +12,11 @@ $(window).on('scroll', function(){
 
              //slide-bar
 const navSlide = () => {
-	const slidebar = document.querySelector(".slide-bar");
+	const sidebar = document.querySelector(".side-bar");
 	const navbar = document.querySelector(".nav-bar");
 	const navLinks = document.querySelectorAll(".nav-bar li");
 
-    slidebar.onclick = () => {
+    sidebar.onclick = () => {
 		
 	navbar.classList.toggle("nav-active");
 		
@@ -29,7 +29,7 @@ const navSlide = () => {
 		}
 		});
 	  //hamburger animation
-	slidebar.classList.toggle("toggle");
+	sidebar.classList.toggle("toggle");
     }
 	
 	}
