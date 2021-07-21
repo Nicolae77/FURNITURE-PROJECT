@@ -419,4 +419,9 @@ hr {
 .nav-active{
 	transform:translatex(0%);
 }
+/* CART ICON */
+
+a {
+	text-decoration: wavy;
+}
 
